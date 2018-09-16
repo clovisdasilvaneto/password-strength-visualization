@@ -31,6 +31,7 @@ class StrengthComponent extends Component {
 		const {image, step} = this.props;
 		const canvas = document.querySelector('#strenght-canvas');
 		const ctx = canvas.getContext('2d');
+
 		const img = loadImage(image);
 
 		img.onload = function () {

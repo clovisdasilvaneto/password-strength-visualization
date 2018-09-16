@@ -6,6 +6,7 @@ export default styled.form`
 	display: flex;
 	flex-direction: column;
 	padding: 5vmin;
-	width: 550px;
+	max-width: 550px;
+	width: 100%;
 	justify-content: space-around;
 `;
