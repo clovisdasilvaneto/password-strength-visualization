@@ -3,7 +3,7 @@ import {ThemeProvider} from 'styled-components';
 
 import Wrapper from './presentation-components/Wrapper';
 import FormComponent from './components/FormComponent';
-import StrenghtComponent from './components/StrenghtComponent';
+import StrengthComponent from './components/StrengthComponent';
 
 const theme = {
   font: 'Arial',
@@ -70,10 +70,10 @@ class App extends Component {
     return (
       <ThemeProvider theme={theme}>
         <Wrapper>
-          <StrenghtComponent 
+          <StrengthComponent 
             image={theme.strenghtImage}step={step}
           >
-          </StrenghtComponent>
+          </StrengthComponent>
 
           <FormComponent 
             strengthLevel={strengthLevel} 

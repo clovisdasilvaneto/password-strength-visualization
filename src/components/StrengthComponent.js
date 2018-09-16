@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import Canvas from '../presentation-components/Canvas';
 import {loadImage} from '../utils/image-manipulations';
 
-class StrenghtComponent extends Component {
+class StrengthComponent extends Component {
 	constructor(props) {
 		super(props)
 		this.state = {
@@ -73,9 +73,9 @@ class StrenghtComponent extends Component {
 	}
 }
 
-StrenghtComponent.propTypes = {
+StrengthComponent.propTypes = {
 	image: PropTypes.string.isRequired,
 	step: PropTypes.number.isRequired,
 };
 
-export default StrenghtComponent;
+export default StrengthComponent;
